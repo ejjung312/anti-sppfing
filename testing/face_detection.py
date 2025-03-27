@@ -2,7 +2,7 @@ from utils.FaceDetectionModule import FaceDetector
 from utils.Utils import *
 import cv2
 
-cap = cv2.VideoCapture("../data/person1.mp4")
+cap = cv2.VideoCapture("../video/person1.mp4")
 
 detector = FaceDetector(minDetectionCon=0.5, modelSelection=0)
 

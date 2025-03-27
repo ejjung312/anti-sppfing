@@ -7,7 +7,7 @@ from utils.Utils import *
 
 confidence = 0.6
 
-cap = cv2.VideoCapture("../data/person2.mp4")  # For Webcam
+cap = cv2.VideoCapture("../video/person2.mp4")  # For Webcam
 cap.set(3, 640)
 cap.set(4, 480)
 

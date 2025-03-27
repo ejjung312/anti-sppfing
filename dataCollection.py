@@ -18,7 +18,7 @@ camWidth, camHeight = 640, 480
 floatingPoint = 6
 ########################################
 
-cap = cv2.VideoCapture("data/person3.mp4")
+cap = cv2.VideoCapture("video/person3.mp4")
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, camWidth)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, camHeight)
 detector = FaceDetector()
